@@ -40,4 +40,10 @@ fun FormDataDiri(modifier: Modifier
     var textJK by remember { mutableStateOf("") }
 
     //variable-variable untuk menyimpapn data yang diperoleh dari komponen
+
+    var nama by remember { mutableStateOf("") }
+    var alamat by remember { mutableStateOf("") }
+    var jenis by remember { mutableStateOf("") }
+
+
 }
