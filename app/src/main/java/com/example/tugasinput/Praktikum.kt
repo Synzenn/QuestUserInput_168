@@ -148,5 +148,17 @@ fun FormPraktikum(modifier: Modifier) {
                         }
                     }
 
+                    Spacer(modifier = Modifier.height(12.dp))
+
+                    Text(text = "Alamat", color = Color.Gray, fontSize = 12.sp)
+                    OutlinedTextField(
+                        value = alamatInput,
+                        onValueChange = { alamatInput = it },
+                        label = { Text("Alamat") },
+                        modifier = Modifier.fillMaxWidth()
+                    )
+
+                    Spacer(modifier = Modifier.height(20.dp))
+
 
 }
