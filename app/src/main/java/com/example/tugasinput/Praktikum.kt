@@ -95,5 +95,21 @@ fun FormPraktikum(modifier: Modifier) {
                 colors = CardDefaults.cardColors(containerColor = Color.White),
                 elevation = CardDefaults.cardElevation(6.dp)
             ) {
+                Column(
+                    modifier = Modifier
+                        .padding(16.dp)
+                        .fillMaxWidth(),
+                    horizontalAlignment = Alignment.Start
+                ) {
+                    // Nama Lengkap
+                    Text(text = "Nama Lengkap", color = Color.Gray, fontSize = 12.sp)
+                    OutlinedTextField(
+                        value = namaInput,
+                        onValueChange = { namaInput = it },
+                        label = { Text("nama lengkap") },
+                        singleLine = true,
+                        modifier = Modifier.fillMaxWidth()
+                    )
+
 
 }
