@@ -123,7 +123,10 @@ fun FormPraktikum(modifier: Modifier) {
                                     onClick = { jkInput = item }
                                 ),
                             verticalAlignment = Alignment.CenterVertically
-                        )
+                        ) {
+                            RadioButton(selected = (jkInput == item), onClick = { jkInput = item })
+                            Text(text = item)
+                        }
                     }
 
 }
