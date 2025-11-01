@@ -78,4 +78,12 @@ fun FormPraktikum(modifier: Modifier) {
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Top
         ) {
+            Text(
+                text = "Formulir Pendaftaran",
+                fontSize = 30.sp,
+                color = Color.White,
+                fontWeight = FontWeight.Bold
+            )
+
+
 }
