@@ -56,5 +56,13 @@ fun FormPraktikum(modifier: Modifier) {
     val gender = listOf("Laki-laki", "Perempuan")
     val perkawinanList = listOf("Janda Anak Satu", "Istri Rumah Tangga", "Lajang")
 
-    }
+    Box(modifier = Modifier.fillMaxSize()) {
+
+        Box(
+            modifier = Modifier
+                .fillMaxSize()
+                .background(Color.LightGray)
+        )
+
+
 }
