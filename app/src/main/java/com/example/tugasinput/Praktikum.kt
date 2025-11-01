@@ -53,7 +53,8 @@ fun FormPraktikum(modifier: Modifier) {
     var jk by remember { mutableStateOf("") }
     var perkawinan by remember { mutableStateOf("") }
 
-
+    val gender = listOf("Laki-laki", "Perempuan")
+    val perkawinanList = listOf("Janda Anak Satu", "Istri Rumah Tangga", "Lajang")
 
     }
 }
