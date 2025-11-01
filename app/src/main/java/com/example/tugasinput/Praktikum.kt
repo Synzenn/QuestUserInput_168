@@ -111,5 +111,19 @@ fun FormPraktikum(modifier: Modifier) {
                         modifier = Modifier.fillMaxWidth()
                     )
 
+                    Spacer(modifier = Modifier.height(12.dp))
+
+                    // Jenis Kelamin
+                    Text(text = "Jenis Kelamin", color = Color.Gray, fontSize = 12.sp)
+                    gender.forEach { item ->
+                        Row(
+                            modifier = Modifier
+                                .selectable(
+                                    selected = (jkInput == item),
+                                    onClick = { jkInput = item }
+                                ),
+                            verticalAlignment = Alignment.CenterVertically
+                        )
+                    }
 
 }
