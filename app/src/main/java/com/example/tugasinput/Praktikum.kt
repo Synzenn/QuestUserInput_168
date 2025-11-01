@@ -183,7 +183,12 @@ fun FormPraktikum(modifier: Modifier) {
                     .width(320.dp)
                     .height(120.dp)
             ) {
-
+                Column(modifier = Modifier.padding(12.dp)) {
+                    Text(text = "Nama : " + nama, color = Color.Black)
+                    Text(text = "Jenis Kelamin : " + jk, color = Color.Black)
+                    Text(text = "Status : " + perkawinan, color = Color.Black)
+                    Text(text = "Alamat : " + alamat, color = Color.Black)
+                }
             }
         }
     }
