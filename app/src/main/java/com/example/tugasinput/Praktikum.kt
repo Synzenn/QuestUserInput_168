@@ -129,4 +129,24 @@ fun FormPraktikum(modifier: Modifier) {
                         }
                     }
 
+                    Spacer(modifier = Modifier.height(12.dp))
+
+                    Text(text = "Status Perkawinan", color = Color.Gray, fontSize = 12.sp)
+                    perkawinanList.forEach { item ->
+                        Row(
+                            modifier = Modifier
+                                .selectable(
+                                    selected = (sPerkawinan == item),
+                                    onClick = { sPerkawinan = item }
+                                ),
+                            verticalAlignment = Alignment.CenterVertically
+                        ) {
+                            RadioButton(
+                                selected = (sPerkawinan == item),
+                                onClick = { sPerkawinan = item })
+                            Text(text = item)
+                        }
+                    }
+
+
 }
