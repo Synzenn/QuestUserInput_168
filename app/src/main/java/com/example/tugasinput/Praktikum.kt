@@ -177,5 +177,14 @@ fun FormPraktikum(modifier: Modifier) {
                 }
             }
 
+            ElevatedCard(
+                elevation = CardDefaults.cardElevation(defaultElevation = 8.dp),
+                modifier = Modifier
+                    .width(320.dp)
+                    .height(120.dp)
+            ) {
 
+            }
+        }
+    }
 }
