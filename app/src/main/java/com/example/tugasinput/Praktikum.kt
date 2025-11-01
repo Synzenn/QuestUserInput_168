@@ -160,5 +160,22 @@ fun FormPraktikum(modifier: Modifier) {
 
                     Spacer(modifier = Modifier.height(20.dp))
 
+                    Button(
+                        onClick = {
+                            nama = namaInput
+                            jk = jkInput
+                            perkawinan = sPerkawinan
+                            alamat = alamatInput
+                        },
+                        modifier = Modifier.fillMaxWidth(),
+
+                    ) {
+                        Text("Submit", color = Color.White)
+                    }
+
+                    Spacer(modifier = Modifier.height(16.dp))
+                }
+            }
+
 
 }
