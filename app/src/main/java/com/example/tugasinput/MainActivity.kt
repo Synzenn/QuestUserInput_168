@@ -20,8 +20,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             TugasInputTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
+                    FormPraktikum(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
