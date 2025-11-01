@@ -64,5 +64,18 @@ fun FormPraktikum(modifier: Modifier) {
                 .background(Color.LightGray)
         )
 
+        Box(
+            modifier = Modifier
+                .fillMaxWidth()
+                .height(120.dp)
+                .background(MaterialTheme.colorScheme.primary)
+        )
 
+        Column(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(top = 60.dp),
+            horizontalAlignment = Alignment.CenterHorizontally,
+            verticalArrangement = Arrangement.Top
+        ) {
 }
