@@ -48,4 +48,12 @@ fun FormPraktikum(modifier: Modifier) {
     var sPerkawinan by remember { mutableStateOf("") }
 
 
+    var nama by remember { mutableStateOf("") }
+    var alamat by remember { mutableStateOf("") }
+    var jk by remember { mutableStateOf("") }
+    var perkawinan by remember { mutableStateOf("") }
+
+
+
+    }
 }
