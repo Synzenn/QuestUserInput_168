@@ -42,5 +42,10 @@ import androidx.compose.ui.unit.sp
 @Composable
 fun FormPraktikum(modifier: Modifier) {
 
+    var namaInput by remember { mutableStateOf("") }
+    var alamatInput by remember { mutableStateOf("") }
+    var jkInput by remember { mutableStateOf("") }
+    var sPerkawinan by remember { mutableStateOf("") }
+
 
 }
