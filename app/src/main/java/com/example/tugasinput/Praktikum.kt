@@ -85,5 +85,15 @@ fun FormPraktikum(modifier: Modifier) {
                 fontWeight = FontWeight.Bold
             )
 
+            Spacer(modifier = Modifier.height(20.dp))
+
+            Card(
+                modifier = Modifier
+                    .fillMaxWidth(0.9f)
+                    .padding(30.dp),
+                shape = RoundedCornerShape(20.dp),
+                colors = CardDefaults.cardColors(containerColor = Color.White),
+                elevation = CardDefaults.cardElevation(6.dp)
+            ) {
 
 }
